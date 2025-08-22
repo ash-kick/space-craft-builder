@@ -1,0 +1,72 @@
+html,
+body {
+     background-color: black;
+     color: white;
+     font-family: "Courier New", Courier, monospace;
+}
+
+button {
+     font-family: "Courier New", Courier, monospace;
+     margin: 10px;
+     width: 100px;
+     height: 30px;
+     background-color: black;
+}
+
+.delete-button {
+     border: 2px solid red;
+     color: white;
+}
+#add-button {
+     border: 2px solid greenyellow;
+     color: white;
+}
+
+.inventory-item {
+     display: flex;
+     align-items: top;
+     justify-content: space-between;
+     border: 2px solid white;
+     padding-left: 10px;
+}
+
+input {
+     font-family: "Courier New", Courier, monospace;
+     background-color: black;
+     color: white;
+     border-style: solid;
+}
+
+#purpose {
+     height: 100px;
+     padding-left: 10px;
+}
+
+#name,
+#quantity {
+     height: 24px;
+     padding-left: 10px;
+}
+
+#name-input,
+#quantity-input,
+#purpose-input {
+     display: flex;
+     flex-direction: column;
+     margin: 10px;
+     border-width: 2px;
+}
+
+#agree-to-terms-input {
+     border: solid;
+     padding-left: 10px;
+     margin: 10px;
+     display: flex;
+     align-items: center;
+     height: 24px;
+     border-width: 2px;
+}
+
+label {
+     padding-left: 10px;
+}
