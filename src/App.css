@@ -17,6 +17,7 @@ button {
      border: 2px solid red;
      color: white;
 }
+
 #add-button {
      border: 2px solid greenyellow;
      color: white;
@@ -28,6 +29,7 @@ button {
      justify-content: space-between;
      border: 2px solid white;
      padding-left: 10px;
+     margin: 10px;
 }
 
 input {
@@ -35,6 +37,10 @@ input {
      background-color: black;
      color: white;
      border-style: solid;
+}
+
+input:focus {
+     background-color: black;
 }
 
 #purpose {
